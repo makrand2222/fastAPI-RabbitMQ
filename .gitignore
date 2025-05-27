@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pipenv
+Pipfile.lock
+
+# Virtual environment (if inside project)
+.venv/
+
+# Common virtual env names
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode and other IDEs
+.vscode/
+.idea/
+*.swp
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs and dumps
+*.log
+*.out
+*.pid
+*.dump
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.tar
+*.gz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Git merge conflict
+*.orig
